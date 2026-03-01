@@ -12,16 +12,16 @@ The system is built with a modular architecture consisting of independent compon
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    FastAPI Server                        │
+│                    FastAPI Server                       │
 │                      (main.py)                          │
-│                  POST /chat endpoint                     │
+│                  POST /chat endpoint                    │
 └────────────────────┬────────────────────────────────────┘
                      │
                      ▼
 ┌─────────────────────────────────────────────────────────┐
-│                    NPCAgent                              │
-│                  (npc_agent.py)                          │
-│  Orchestrator: Manages entire processing flow          │
+│                    NPCAgent                             │
+│                  (npc_agent.py)                         │
+│  Orchestrator: Manages entire processing flow           │
 └─────┬──────────┬──────────┬──────────┬──────────────────┘
       │          │          │          │
       ▼          ▼          ▼          ▼
